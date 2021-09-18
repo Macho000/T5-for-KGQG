@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.104+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.12",
+    "heartbeatAt": "2021-09-18T09:49:59.421228",
+    "startedAt": "2021-09-18T09:49:54.750473",
+    "docker": null,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-f1f9032d-4bcd-4a96-bbed-a4a3e9c1c642.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Macho000/T5-for-KGQG",
+        "commit": "933fd688a7ad7caf60f218b895c226e3dd3dd44c"
+    },
+    "email": null,
+    "root": "/content/drive/My Drive/ColabNotebooks/Research/KG2QGwithT5/TripleAttention",
+    "host": "38532465dda4",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

@@ -1,0 +1,14 @@
+2021-09-18 09:40:57,076 INFO    MainThread:401 [wandb_init.py:_log_setup():292] Logging user logs to wandb/run-20210918_094057-sg63pkxj/logs/debug.log
+2021-09-18 09:40:57,077 INFO    MainThread:401 [wandb_init.py:_log_setup():293] Logging internal logs to wandb/run-20210918_094057-sg63pkxj/logs/debug-internal.log
+2021-09-18 09:40:57,077 INFO    MainThread:401 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-18 09:40:57,077 INFO    MainThread:401 [wandb_setup.py:_flush():69] setting user settings: {}
+2021-09-18 09:40:57,077 INFO    MainThread:401 [wandb_setup.py:_flush():69] multiprocessing start_methods=fork,spawn,forkserver
+2021-09-18 09:40:57,077 INFO    MainThread:401 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f4de3a626d0>
+2021-09-18 09:41:03,995 INFO    MainThread:401 [wandb_run.py:_console_start():1276] atexit reg
+2021-09-18 09:41:04,003 INFO    MainThread:401 [wandb_run.py:_redirect():1146] redirect: SettingsConsole.WRAP
+2021-09-18 09:41:04,006 INFO    MainThread:401 [wandb_run.py:_redirect():1177] Wrapping output streams.
+2021-09-18 09:41:04,007 INFO    MainThread:401 [wandb_run.py:_redirect():1193] Redirects installed.
+2021-09-18 09:41:04,008 INFO    MainThread:401 [wandb_run.py:_config_callback():586] config_cb None None {'_wandb': {'cli_version': '0.10.7', 'python_version': '3.7.12', 'is_jupyter_run': True, 'is_kaggle_kernel': False, 'framework': 'torch'}, 'experiment/seed': 42, 'experiment/data': 'mhqg-pq', 'experiment/data_dir': 'data/mhqg-pq/', 'experiment/model_name_or_path': 't5-small', 'experiment/tokenizer_name_or_path': 't5-small', 'experiment/model_dir': 'content/test_mhqg-pq_t5-small_with_TripleAttention_20210918_1218', 'experiment/wandb/exp_num': 1, 'experiment/wandb/project': 'test_mhqg-pq_t5-small_with_TripleAttention', 'experiment/wandb/checkpoint_path': 'checkpoint/', 'model/max_input_length': 100, 'model/max_target_length': 100, 'training/learning_rate': 0.0003, 'training/weight_decay': 0.0, 'training/adam_epsilon': 1e-08, 'training/warmup_steps': 0, 'training/gradient_accumulation_steps': 1, 'training/early_stop_callback': True, 'training/fp_16': False, 'training/opt_level': 'O1', 'training/max_grad_norm': 1.0, 'training/seed': 42, 'training/train_batch_size': 32, 'training/eval_batch_size': 32, 'training/test_batch_size': 8, 'training/num_train_epochs': 10, 'training/precision': 16, 'training/n_gpu': 0}
+2021-09-18 09:49:50,875 INFO    MainThread:401 [wandb_run.py:finish():983] finishing run macho000/test_mhqg-pq_t5-small_with_TripleAttention/sg63pkxj
+2021-09-18 09:49:50,876 INFO    MainThread:401 [wandb_init.py:_jupyter_teardown():224] cleaning up jupyter logic
+2021-09-18 09:49:50,876 INFO    MainThread:401 [jupyter.py:save_history():200] not saving jupyter history
