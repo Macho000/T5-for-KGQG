@@ -1,0 +1,91 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.7
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.7.12
+experiment/data:
+  desc: null
+  value: mhqg-wq
+experiment/data_dir:
+  desc: null
+  value: data/mhqg-wq/
+experiment/model_dir:
+  desc: null
+  value: content/test_mhqg-wq_t5-small_with_TripleAttention_20210918_1218
+experiment/model_name_or_path:
+  desc: null
+  value: t5-small
+experiment/seed:
+  desc: null
+  value: 42
+experiment/tokenizer_name_or_path:
+  desc: null
+  value: t5-small
+experiment/wandb/checkpoint_path:
+  desc: null
+  value: checkpoint/
+experiment/wandb/exp_num:
+  desc: null
+  value: 1
+experiment/wandb/project:
+  desc: null
+  value: test_mhqg-wq_t5-small_with_TripleAttention
+model/max_input_length:
+  desc: null
+  value: 100
+model/max_target_length:
+  desc: null
+  value: 100
+training/adam_epsilon:
+  desc: null
+  value: 1.0e-08
+training/early_stop_callback:
+  desc: null
+  value: true
+training/eval_batch_size:
+  desc: null
+  value: 32
+training/fp_16:
+  desc: null
+  value: false
+training/gradient_accumulation_steps:
+  desc: null
+  value: 1
+training/learning_rate:
+  desc: null
+  value: 0.0003
+training/max_grad_norm:
+  desc: null
+  value: 1.0
+training/n_gpu:
+  desc: null
+  value: 0
+training/num_train_epochs:
+  desc: null
+  value: 10
+training/opt_level:
+  desc: null
+  value: O1
+training/precision:
+  desc: null
+  value: 16
+training/seed:
+  desc: null
+  value: 42
+training/test_batch_size:
+  desc: null
+  value: 8
+training/train_batch_size:
+  desc: null
+  value: 32
+training/warmup_steps:
+  desc: null
+  value: 0
+training/weight_decay:
+  desc: null
+  value: 0.0

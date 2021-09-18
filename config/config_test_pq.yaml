@@ -6,10 +6,10 @@ experiment:
   data_dir: "data/mhqg-pq/"
   model_name_or_path: "t5-small"
   tokenizer_name_or_path: "t5-small"
-  model_dir: content/test_mhqg-pq_t5-small_20210905_1310
+  model_dir: content/test_mhqg-pq_t5-small_with_TripleAttention_20210918_1218
   wandb:
-    exp_num: 005
-    project: test_mhqg-pq_t5-small
+    exp_num: 001
+    project: test_mhqg-pq_t5-small_with_TripleAttention
     checkpoint_path: checkpoint/
 
 # param for model    

@@ -1,0 +1,35 @@
+GPU available: False, used: False
+TPU available: None, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: None, using: 0 TPU cores
+
+  | Name  | Type                       | Params
+-----------------------------------------------------
+0 | model | T5ForConditionalGeneration | 60.5 M
+-----------------------------------------------------
+60.5 M    Trainable params
+0         Non-trainable params
+60.5 M    Total params
+242.026   Total estimated model params size (MB)
+GPU available: False, used: False
+TPU available: None, using: 0 TPU cores
+
+  | Name  | Type                       | Params
+-----------------------------------------------------
+0 | model | T5ForConditionalGeneration | 60.5 M
+-----------------------------------------------------
+60.5 M    Trainable params
+0         Non-trainable params
+60.5 M    Total params
+242.026   Total estimated model params size (MB)
+GPU available: False, used: False
+TPU available: None, using: 0 TPU cores
+
+  | Name  | Type                       | Params
+-----------------------------------------------------
+0 | model | T5ForConditionalGeneration | 60.5 M
+-----------------------------------------------------
+60.5 M    Trainable params
+0         Non-trainable params
+60.5 M    Total params
+242.026   Total estimated model params size (MB)

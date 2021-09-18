@@ -2,20 +2,20 @@
 # 実験実施のためのパラメータ
 experiment:
   seed: 42
-  data: "mhqg-pq"
-  data_dir: "data/mhqg-pq/"
+  data: "mhqg-wq"
+  data_dir: "data/mhqg-wq/"
   model_name_or_path: "t5-small"
   tokenizer_name_or_path: "t5-small"
-  model_dir: content/mhqg-pq_t5-small_20210905_2246
+  model_dir: content/test_mhqg-wq_t5-small_with_TripleAttention_20210918_1218
   wandb:
     exp_num: 001
-    project: mhqg-pq_t5-small
+    project: test_mhqg-wq_t5-small_with_TripleAttention
     checkpoint_path: checkpoint/
 
 # param for model    
 # モデルに関するパラメータ
 model:
-  max_input_length: 512
+  max_input_length: 100
   max_target_length: 100
 
 # param for training
@@ -29,12 +29,13 @@ training:
   # early_stop_callback: False
   early_stop_callback: True
   fp_16: False
+  # fp_16: True
   opt_level: 'O1'
   max_grad_norm: 1.0
   seed: 42
-  train_batch_size: 2
-  eval_batch_size: 2
+  train_batch_size: 32
+  eval_batch_size: 32
   test_batch_size: 8
-  num_train_epochs: 8
+  num_train_epochs: 10
   precision: 16
   n_gpu: 1

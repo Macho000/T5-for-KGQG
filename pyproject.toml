@@ -19,6 +19,7 @@ omegaconf = "^2.1.1"
 Hydra = "^2.5"
 hydra-core = "^1.1.1"
 wandb = "0.10.7"
+transformers = "4.4.2"
 
 [tool.poetry.dev-dependencies]
 
