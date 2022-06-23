@@ -1,5 +1,5 @@
 # T5-for-KGQG
-This code is the implementation of the paper [pdf](https://github.com/Macho000/T5-for-KGQG/blob/main/GCCE2021.pdf)
+This code is the implementation of the paper [pdf]([https://github.com/Macho000/T5-for-KGQG/blob/main/GCCE2021.pdf](https://www.researchgate.net/publication/356707850_Question_Generation_using_Knowledge_Graphs_with_the_T5_Language_Model_and_Masked_Self-Attention))
 
 # How to use
 ## First step
